@@ -1,0 +1,7 @@
+.btn {
+    @extend .btn-juegos;
+}
+.btn-juegos{
+    background-color:$color-carrusel-1;
+    margin: 5px;
+}

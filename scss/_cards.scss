@@ -1,0 +1,26 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &-juegos{
+        background-color: $color-card;
+    }
+    &-img-top{
+        height: 12rem;
+    }
+    &-titulo{
+    @extend .font-title;
+    }
+    
+}
+.card_form{
+    width: 50rem;
+    margin: auto;
+    padding: 1rem;
+    background-color:$color-card;
+}
+.card-title{
+    color: black;
+}

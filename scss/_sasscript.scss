@@ -1,0 +1,6 @@
+@mixin redes ($color,$size, $background-color,$height){
+    color:$color;
+    font-size:$size;
+    background-color: $background-color;
+    height:$height;
+}

@@ -1,0 +1,161 @@
+header {
+  background: linear-gradient(180deg, #0016b8 0%, #090909 100%); }
+  header li {
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    color: white; }
+    header li:hover {
+      border-bottom: 2px solid #16ffff;
+      cursor: pointer;
+      transition: all 1s; }
+  header .logo__gamer {
+    width: 100px; }
+    header .logo__gamer:hover {
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      box-shadow: 0px 0px 15px 15px #16ffff;
+      -webkit-box-shadow: 0px 0px 15px 15px #16ffff;
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+      transition: all 1s; }
+
+footer {
+  text-align: center;
+  background: linear-gradient(0deg, #0016b8 0%, #090909 100%); }
+
+main {
+  background-color: black;
+  width: 100%;
+  min-height: 82vh;
+  text-align: center; }
+
+.btn-juegos, .btn {
+  background-color: #634eff;
+  margin: 5px; }
+
+.carousel-item {
+  color: white;
+  background: linear-gradient(0deg, #634eff 0%, black 100%);
+  min-height: 65vh; }
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .cards-juegos {
+    background-color: #dadffa; }
+  .cards-img-top {
+    height: 12rem; }
+
+.card_form {
+  width: 50rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: #dadffa; }
+
+.card-title {
+  color: black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+h1 {
+  color: #d7f4f4;
+  margin-bottom: 3rem; }
+
+h2 {
+  margin-bottom: 3rem;
+  color: white; }
+
+.col-2 {
+  margin: auto;
+  width: 100px;
+  height: 100px; }
+
+.col-10 {
+  margin: auto; }
+
+.col-lg-3 img {
+  width: 100%;
+  height: 8rem;
+  gap: 10px;
+  margin-bottom: 10px; }
+
+.col-md-6 img {
+  width: 100%;
+  height: 8rem;
+  gap: 10px;
+  margin-bottom: 10px; }
+
+.col-sm-12 img {
+  width: 100%;
+  height: 8rem;
+  gap: 10px;
+  margin-bottom: 10px; }
+
+.nom-red {
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(229, 229, 229, 0.4);
+  height: 8rem; }
+
+.container-img {
+  padding: 10px; }
+
+.font-title, .cards-titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: #a68225; }
+
+.noticia-principales, .carousel-item-noticia {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger; }
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82vh; }
+
+@media (min-width: 280px) and (max-width: 450px) {
+  .card {
+    width: 15rem;
+    margin: auto;
+    margin-bottom: 1rem; }
+  .nom-red {
+    color: white;
+    font-size: 1rem;
+    background-color: rgba(229, 229, 229, 0.4);
+    height: 8rem; }
+  .card_form {
+    width: 20rem;
+    margin: auto;
+    padding: 0%; } }
+
+@media (min-width: 450px) and (max-width: 950px) {
+  .card {
+    width: 30rem;
+    margin: auto;
+    margin-bottom: 1rem; }
+  .nom-red {
+    color: white;
+    font-size: 1rem;
+    background-color: rgba(229, 229, 229, 0.4);
+    height: 8rem; }
+  .col-text {
+    height: 20vh; }
+  .card_form {
+    width: 40rem;
+    margin: auto; } }
