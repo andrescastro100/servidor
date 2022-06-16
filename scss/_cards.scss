@@ -1,11 +1,12 @@
 .cards{
     display: flex;
     flex-direction: row;
-    margin: auto;
     flex-wrap: wrap;
     justify-content: space-around;
     &-juegos{
         background-color: $color-card;
+        width: 20rem;
+        height: 35rem;
     }
     &-img-top{
         height: 12rem;

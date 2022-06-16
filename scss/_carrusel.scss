@@ -1,8 +1,0 @@
-.carousel-item{
-    color: $color-carrusel-letras;
-    background: linear-gradient(0deg, $color-carrusel-1 0%, $color-carrusel-2 100%);
-    min-height: 65vh;
-    &-noticia{
-        @extend .noticia-principales;
-    }
-}

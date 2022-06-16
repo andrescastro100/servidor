@@ -1,0 +1,26 @@
+.noticias-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.noticia{ 
+    &-principal{
+    width: 90%;
+    background-color: $color-1;
+    border: 5px solid $color-card;
+    color: $color-letras;
+    margin: auto;
+    padding: 10px;
+    size: 1rem;
+}
+    &-secundaria{
+    width: 90%;
+    background-color: $color-1;
+    border: 5px solid $color-card;
+    color: $color-letras;
+    margin: auto;
+    padding: 10px;
+    size:1rem;
+}
+}

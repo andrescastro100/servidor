@@ -4,7 +4,7 @@
 @import 'sasscript.scss';
 @import 'main.scss';
 @import 'btn.scss';
-@import 'carrusel.scss';
+@import 'noticias.scss';
 @import 'cards.scss';
 *{
     margin: 0;
@@ -39,6 +39,14 @@ h2{
     &-10{
         margin: auto;
 
+    }
+    &-lg-12{
+        width: 90%;
+        margin: auto;
+    }
+    &-lg-6{
+        margin: auto;
+        width:45%;
     }
     &-lg-3 img{
         width: 100%;

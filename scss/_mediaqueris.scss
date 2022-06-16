@@ -13,6 +13,10 @@
         margin:auto;
         padding:0%;
     }
+    .col-sm-12{
+            width: 90%;
+            margin: auto;
+        }
 }
 @media (min-width : 450px) and (max-width:950px){
     .card{
@@ -29,5 +33,18 @@
     .card_form{
         width: 40rem;
         margin:auto;
+    }
+    .col{
+        &-md-12{
+            width: 90%;
+            margin: auto;
+        }
+        &-md-6{
+            margin: auto;
+            width:45%;
+        }
+    }
+    .noticias-container{
+        min-height: 55vh;
     }
 }

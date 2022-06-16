@@ -1,5 +1,5 @@
 header {
-  background: linear-gradient(180deg, #0016b8 0%, #090909 100%); }
+  background: linear-gradient(180deg, #4d82ff 0%, #090909 100%); }
   header li {
     text-align: center;
     display: inline-block;
@@ -22,7 +22,8 @@ header {
 
 footer {
   text-align: center;
-  background: linear-gradient(0deg, #0016b8 0%, #090909 100%); }
+  background: linear-gradient(0deg, #4d82ff 0%, #090909 100%);
+  color: white; }
 
 main {
   background-color: black;
@@ -31,22 +32,42 @@ main {
   text-align: center; }
 
 .btn-juegos, .btn {
-  background-color: #634eff;
+  background-color: #4a3cb1;
   margin: 5px; }
 
-.carousel-item {
+.noticias-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.noticia-principal {
+  width: 90%;
+  background-color: #4a3cb1;
+  border: 5px solid #dadffa;
   color: white;
-  background: linear-gradient(0deg, #634eff 0%, black 100%);
-  min-height: 65vh; }
+  margin: auto;
+  padding: 10px;
+  size: 1rem; }
+
+.noticia-secundaria {
+  width: 90%;
+  background-color: #4a3cb1;
+  border: 5px solid #dadffa;
+  color: white;
+  margin: auto;
+  padding: 10px;
+  size: 1rem; }
 
 .cards {
   display: flex;
   flex-direction: row;
-  margin: auto;
   flex-wrap: wrap;
   justify-content: space-around; }
   .cards-juegos {
-    background-color: #dadffa; }
+    background-color: #dadffa;
+    width: 20rem;
+    height: 35rem; }
   .cards-img-top {
     height: 12rem; }
 
@@ -87,6 +108,14 @@ h2 {
 .col-10 {
   margin: auto; }
 
+.col-lg-12 {
+  width: 90%;
+  margin: auto; }
+
+.col-lg-6 {
+  margin: auto;
+  width: 45%; }
+
 .col-lg-3 img {
   width: 100%;
   height: 8rem;
@@ -119,7 +148,7 @@ h2 {
   font-size: 1.5rem;
   color: #a68225; }
 
-.noticia-principales, .carousel-item-noticia {
+.noticia-principales {
   font-family: 'Times New Roman', Times, serif;
   font-size: larger; }
 
@@ -142,7 +171,10 @@ h2 {
   .card_form {
     width: 20rem;
     margin: auto;
-    padding: 0%; } }
+    padding: 0%; }
+  .col-sm-12 {
+    width: 90%;
+    margin: auto; } }
 
 @media (min-width: 450px) and (max-width: 950px) {
   .card {
@@ -158,4 +190,12 @@ h2 {
     height: 20vh; }
   .card_form {
     width: 40rem;
-    margin: auto; } }
+    margin: auto; }
+  .col-md-12 {
+    width: 90%;
+    margin: auto; }
+  .col-md-6 {
+    margin: auto;
+    width: 45%; }
+  .noticias-container {
+    min-height: 55vh; } }
